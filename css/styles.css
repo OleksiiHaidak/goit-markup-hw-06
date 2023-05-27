@@ -859,8 +859,12 @@ body {
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-icon-thumb {
     background-color: #404bbf;
     border: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
     fill: #ffffff;
-    border: 1px solid #404bbf;
+    border-color: #404bbf;
 }
 
 
