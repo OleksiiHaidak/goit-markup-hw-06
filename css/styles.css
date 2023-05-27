@@ -849,18 +849,22 @@ body {
     margin-right: 8px;
     width: 16px;
     height: 16px;
-    cursor: pointer;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     fill: transparent;
 }
 
+.contact-form-checkmark-icon {
+    cursor: pointer;
+}
+
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-icon-thumb {
-    border: none;
     background-color: #404bbf;
+    border: none;
     fill: #ffffff;
     border: 1px solid var(--accent-dark-blue-color);
 }
+
 
 .policy-link {
     color: var(--accent-blue-color);
