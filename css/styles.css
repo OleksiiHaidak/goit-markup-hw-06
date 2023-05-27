@@ -853,7 +853,6 @@ body {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     fill: transparent;
-    transition: background-color var(--transition-duration-and-function), fill var(--transition-duration-and-function);
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-icon-thumb {
