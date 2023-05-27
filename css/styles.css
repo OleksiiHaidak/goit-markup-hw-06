@@ -773,7 +773,7 @@ body {
     padding-left: 38px;
     background-color: transparent;
     outline: transparent;
-    border: 1px solid rgba(46, 47, 66, 0.2);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     transition: border-color var(--transition-duration-and-function);
 }
@@ -850,16 +850,16 @@ body {
     height: 16px;
     border: none;
     cursor: pointer;
-    border: 1px solid #2e2f42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     fill: transparent;
     transition: background-color var(--transition-duration-and-function), fill var(--transition-duration-and-function);
 }
 
-.contact-form-checkbox:checked + .contact-form-checkbox-wrapper .checkbox-icon-thumb {
-    background-color: var(--accent-dark-blue-color);
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-icon-thumb {
+    background-color: #404bbf;
     border: none;
-    fill: var(--main-white-color);
+    fill: #ffffff;
     border: 1px solid var(--accent-dark-blue-color);
 }
 
