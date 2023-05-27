@@ -822,7 +822,6 @@ body {
     color: rgba(46, 47, 66, 0.4);
 }
 
-
 .contact-form-input-wrapper {
     position: relative;
 }
@@ -830,6 +829,8 @@ body {
 .textarea-form {
     margin-bottom: 16px;
 }
+
+
 
 
 .contact-form-checkbox {
@@ -855,8 +856,8 @@ body {
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-icon-thumb {
-    background-color: #404bbf;
     border: none;
+    background-color: #404bbf;
     fill: #ffffff;
     border: 1px solid var(--accent-dark-blue-color);
 }
@@ -864,6 +865,12 @@ body {
 .policy-link {
     color: var(--accent-blue-color);
 }
+
+
+
+
+
+
 
 .contact-form-submit {
     display: block;
