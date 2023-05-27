@@ -761,7 +761,6 @@ body {
 
 .contact-form-wrapper {
     margin-bottom: 4px;
-    letter-spacing: 0.01em;
 }
 
 .input-form {
@@ -804,7 +803,7 @@ body {
     outline: transparent;
     background-color: transparent;
     color: rgba(46, 47, 66, 0.4);
-    border: border: 1px solid rgba(46, 47, 66, 0.2);
+    border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
     padding: 8px 16px;
     font-weight: 400;
@@ -857,10 +856,10 @@ body {
     transition: background-color var(--transition-duration-and-function), fill var(--transition-duration-and-function);
 }
 
-.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-icon-thumb {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper .checkbox-icon-thumb {
     background-color: var(--accent-dark-blue-color);
     border: none;
-    fill: var(--accent-light-color);
+    fill: var(--main-white-color);
     border: 1px solid var(--accent-dark-blue-color);
 }
 
