@@ -783,6 +783,7 @@ body {
     display: block;
     top: 50%;
     left: 16px;
+    fill: var(--accent-dark-color);
     transform: translateY(-50%);
     transition: fill var(--transition-duration-and-function);
 }
